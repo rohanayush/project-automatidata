@@ -1,4 +1,17 @@
 # Automatidata
+## Background on the Automatidata scenario
+Automatidata works with its clients to transform their unused and stored data into useful solutions, such as performance dashboards, customer-facing tools, strategic business insights, and more. They specialize in identifying a client’s business needs and utilizing their data to meet those business needs. 
+
+Automatidata is consulting for the New York City Taxi and Limousine Commission (TLC). New York City TLC is an agency responsible for licensing and regulating New York City's taxi cabs and for-hire vehicles. The agency has partnered with Automatidata to develop a regression model that helps estimate taxi fares before the ride, based on data that TLC has gathered. 
+
+The TLC data comes from over 200,000 taxi and limousine licensees, making approximately one million combined trips per day. 
+
+## Deliverables
+**To improve the learning experience and shorten runtimes**
+**The purpose** of this regression model is to find ways to generate more revenue for taxi cab drivers, by regression.
+  
+**The goal**  is to predict whether or not a customer is a generous tipper, using Machine learning model
+<br/>  
 
 
 ## Dataset
@@ -34,7 +47,24 @@ This project uses a dataset called 2017_Yellow_Taxi_Trip_Data.csv. It data gathe
 | Tolls_amount              | Total amount of all tolls paid in the trip.                                                                                                                       |
 | Total_amount              | The total amount charged to passengers. Does not include cash tips.                                                                                                |
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
+EDA has been carried in [Automatidata eda and testing.ipynb](https://github.com/rohanayush/project-automatidata/blob/main/Automatidata%20eda%20and%20testing.ipynb)
+
+### Regression
+Regression has been performed in [Prediction using regression.ipynb](https://github.com/rohanayush/project-automatidata/blob/main/Prediction%20using%20regression.ipynb)
+
+Conclusions:
+
+* Multiple linear regression is a powerful tool to estimate a dependent continous variable from several independent variables.
+* Exploratory data analysis is useful for selecting both numeric and categorical features for multiple linear regression.
+* Fitting multiple linear regression models may require trial and error to select variables that fit an accurate model while maintaining model assumptions (or not, depending on your use case).
+
+### Modeling
+Machine Learning model prediction can be found at [Machine learning.ipynb](https://github.com/rohanayush/project-automatidata/blob/main/Machine%20learning.ipynb)
+
+Different machine learning models were compared to find best prediction, and here are the results:
+![](https://res.cloudinary.com/dvfjbyf7s/image/upload/v1703584013/Automatidata/comparisons_modeling.png)
+
 
 
 
