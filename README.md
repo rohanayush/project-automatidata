@@ -8,11 +8,6 @@ The TLC data comes from over 200,000 taxi and limousine licensees, making approx
 
 ## Deliverables
 **To improve the learning experience and shorten runtimes**
-**The purpose** of this regression model is to find ways to generate more revenue for taxi cab drivers, by regression.
-  
-**The goal**  is to predict whether or not a customer is a generous tipper, using Machine learning model
-<br/>  
-
 
 ## Dataset
 > Dataset can be found [Yellow Taxi File](https://github.com/rohanayush/project-automatidata/blob/main/2017_Yellow_Taxi_Trip_Data.csv)
@@ -53,6 +48,8 @@ EDA has been carried in [Automatidata eda and testing.ipynb](https://github.com/
 ### Regression
 Regression has been performed in [Prediction using regression.ipynb](https://github.com/rohanayush/project-automatidata/blob/main/Prediction%20using%20regression.ipynb)
 
+**The purpose** of this regression model is to find ways to generate more revenue for taxi cab drivers, by regression.
+
 Conclusions:
 
 * Multiple linear regression is a powerful tool to estimate a dependent continous variable from several independent variables.
@@ -61,6 +58,9 @@ Conclusions:
 
 ### Modeling
 Machine Learning model prediction can be found at [Machine learning.ipynb](https://github.com/rohanayush/project-automatidata/blob/main/Machine%20learning.ipynb)
+
+**The goal**  is to predict whether or not a customer is a generous tipper, using Machine learning model
+<br/>  
 
 Different machine learning models were compared to find best prediction, and here are the results:
 ![](https://res.cloudinary.com/dvfjbyf7s/image/upload/v1703584013/Automatidata/comparisons_modeling.png)
